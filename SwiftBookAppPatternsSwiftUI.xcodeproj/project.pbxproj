@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		FFCCDC9B25C1694D004A0748 /* SwiftBookAppPatternsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDC9A25C1694D004A0748 /* SwiftBookAppPatternsSwiftUIApp.swift */; };
-		FFCCDC9D25C1694D004A0748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDC9C25C1694D004A0748 /* ContentView.swift */; };
+		FFCCDC9D25C1694D004A0748 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDC9C25C1694D004A0748 /* CourseListView.swift */; };
 		FFCCDC9F25C1694E004A0748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCCDC9E25C1694E004A0748 /* Assets.xcassets */; };
 		FFCCDCA225C1694E004A0748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCCDCA125C1694E004A0748 /* Preview Assets.xcassets */; };
+		FFCCDCB025C16DE2004A0748 /* CourseListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCAF25C16DE2004A0748 /* CourseListViewViewModel.swift */; };
+		FFCCDCB725C16E09004A0748 /* RowViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCB625C16E09004A0748 /* RowViewViewModel.swift */; };
+		FFCCDCBA25C16E24004A0748 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCB925C16E24004A0748 /* RowView.swift */; };
+		FFCCDCBD25C16E48004A0748 /* CourseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCBC25C16E48004A0748 /* CourseDetailsView.swift */; };
+		FFCCDCC025C16E58004A0748 /* CourseDetailsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCBF25C16E58004A0748 /* CourseDetailsViewViewModel.swift */; };
+		FFCCDCC425C16ECD004A0748 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCC325C16ECD004A0748 /* Course.swift */; };
+		FFCCDCC925C16EF3004A0748 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCC725C16EF2004A0748 /* DataManager.swift */; };
+		FFCCDCCA25C16EF3004A0748 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCC825C16EF2004A0748 /* NetworkManager.swift */; };
+		FFCCDCD025C1915B004A0748 /* CourseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCDCCF25C1915B004A0748 /* CourseImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFCCDC9725C1694D004A0748 /* SwiftBookAppPatternsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBookAppPatternsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCCDC9A25C1694D004A0748 /* SwiftBookAppPatternsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBookAppPatternsSwiftUIApp.swift; sourceTree = "<group>"; };
-		FFCCDC9C25C1694D004A0748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFCCDC9C25C1694D004A0748 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		FFCCDC9E25C1694E004A0748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCCDCA125C1694E004A0748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFCCDCA325C1694E004A0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCCDCAF25C16DE2004A0748 /* CourseListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewViewModel.swift; sourceTree = "<group>"; };
+		FFCCDCB625C16E09004A0748 /* RowViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewViewModel.swift; sourceTree = "<group>"; };
+		FFCCDCB925C16E24004A0748 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		FFCCDCBC25C16E48004A0748 /* CourseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsView.swift; sourceTree = "<group>"; };
+		FFCCDCBF25C16E58004A0748 /* CourseDetailsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewViewModel.swift; sourceTree = "<group>"; };
+		FFCCDCC325C16ECD004A0748 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		FFCCDCC725C16EF2004A0748 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FFCCDCC825C16EF2004A0748 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FFCCDCCF25C1915B004A0748 /* CourseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				FFCCDC9A25C1694D004A0748 /* SwiftBookAppPatternsSwiftUIApp.swift */,
-				FFCCDC9C25C1694D004A0748 /* ContentView.swift */,
+				FFCCDCC225C16ECD004A0748 /* Models */,
+				FFCCDCCF25C1915B004A0748 /* CourseImageView.swift */,
+				FFCCDCAA25C16D42004A0748 /* CourseList */,
+				FFCCDCAB25C16D52004A0748 /* CourseDetails */,
+				FFCCDCC625C16EF2004A0748 /* Services */,
 				FFCCDC9E25C1694E004A0748 /* Assets.xcassets */,
 				FFCCDCA325C1694E004A0748 /* Info.plist */,
 				FFCCDCA025C1694E004A0748 /* Preview Content */,
@@ -67,6 +89,43 @@
 				FFCCDCA125C1694E004A0748 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFCCDCAA25C16D42004A0748 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCDC9C25C1694D004A0748 /* CourseListView.swift */,
+				FFCCDCAF25C16DE2004A0748 /* CourseListViewViewModel.swift */,
+				FFCCDCB925C16E24004A0748 /* RowView.swift */,
+				FFCCDCB625C16E09004A0748 /* RowViewViewModel.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		FFCCDCAB25C16D52004A0748 /* CourseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCDCBC25C16E48004A0748 /* CourseDetailsView.swift */,
+				FFCCDCBF25C16E58004A0748 /* CourseDetailsViewViewModel.swift */,
+			);
+			path = CourseDetails;
+			sourceTree = "<group>";
+		};
+		FFCCDCC225C16ECD004A0748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCDCC325C16ECD004A0748 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFCCDCC625C16EF2004A0748 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCDCC725C16EF2004A0748 /* DataManager.swift */,
+				FFCCDCC825C16EF2004A0748 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCCDC9D25C1694D004A0748 /* ContentView.swift in Sources */,
+				FFCCDCC425C16ECD004A0748 /* Course.swift in Sources */,
+				FFCCDCB725C16E09004A0748 /* RowViewViewModel.swift in Sources */,
+				FFCCDCCA25C16EF3004A0748 /* NetworkManager.swift in Sources */,
+				FFCCDCBA25C16E24004A0748 /* RowView.swift in Sources */,
+				FFCCDCD025C1915B004A0748 /* CourseImageView.swift in Sources */,
+				FFCCDC9D25C1694D004A0748 /* CourseListView.swift in Sources */,
+				FFCCDCB025C16DE2004A0748 /* CourseListViewViewModel.swift in Sources */,
+				FFCCDCC025C16E58004A0748 /* CourseDetailsViewViewModel.swift in Sources */,
+				FFCCDCBD25C16E48004A0748 /* CourseDetailsView.swift in Sources */,
+				FFCCDCC925C16EF3004A0748 /* DataManager.swift in Sources */,
 				FFCCDC9B25C1694D004A0748 /* SwiftBookAppPatternsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +335,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBookAppPatternsSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = JBMRXJPY8V;
+				DEVELOPMENT_TEAM = V9KWBFA2B6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftBookAppPatternsSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,8 +346,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VS.SwiftBookAppPatternsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = VS.SwiftBookAppPatternsSwiftUI888;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,9 +359,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBookAppPatternsSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = JBMRXJPY8V;
+				DEVELOPMENT_TEAM = V9KWBFA2B6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftBookAppPatternsSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,8 +370,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VS.SwiftBookAppPatternsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = VS.SwiftBookAppPatternsSwiftUI888;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
